@@ -1,0 +1,57 @@
+#bloc{
+    display: flex;
+}
+
+.blocvert{
+	width:800px;
+	height:50px;
+    background:green;
+}
+
+.blocbleu {
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+}
+
+.blocrouge {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 30, 0);
+}
+
+.blocorange {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+}
+
+.blocgris {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(87, 87, 94, 0.178);
+}
+
+.blocjaune {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 238, 0);
+}
+
+.blocvert2{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(28, 107, 4);
+}
+
+.blocorange2{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 115, 0);
+}
+
+.blocbleumarine{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(6, 6, 54);
+}
