@@ -9,8 +9,8 @@
 <body>
     <form>        
       
-        <fieldset id="from">
-            <legend><span id="from">Votre identité</span></legend>
+        <fieldset id="user">
+            <legend><span id="user">Votre identité</span></legend>
             <ol>
                 <li><label for="name">Nom :</label>
                 <input type="text" id="name" name="user_name" placeholder="Nom"></li>
@@ -21,9 +21,9 @@
             </ol>
         </fieldset>
 
-        <fieldset id="to">
+        <fieldset id="adress">
 
-            <legend><span id="to">Adresse de livraison</span></legend>
+            <legend><span id="adress">Adresse de livraison</span></legend>
                 <ol>
                     <li><label for="adresse">Adresse :</label>
                     <textarea type="text" id="adresse" name="adresse"></textarea></li>
@@ -40,9 +40,15 @@
         <legend><span id="paiement">Informations de règlement</span></legend>
             <ol>
                 <li><label for="choice">Type de carte bancaire :</label>
-                <ul><li>VISA</li>
-                <li>MasterCard</li></ul>
-                </li>
+                
+                    <ul>
+                        <li><input type="checkbox" id=visa name="card" value="visa">
+                        <label for="visa">VISA</label></li>
+                    
+                        <li><input type="checkbox" id=mastercard name="card" value="mastercard">
+                        <label for="mastercard">MasterCard</label></li>
+                    </ul>
+                
                 <li>Numéro de carte :
                     <input type="text" name="numerocarte" id="numerocarte" placeholder="Numéro carte"></li>
                 </li>

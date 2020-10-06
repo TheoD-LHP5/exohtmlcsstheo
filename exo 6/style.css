@@ -24,3 +24,72 @@
   background-color: #298089;
 }
 
+.secondDivision{
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangleRouge{
+  width: 34%;
+  height: 100%;
+  background-color: #E74C3C;
+}
+
+.subDivisionSecondDivision{
+  width: 66%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstSubDivision{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourRectangle{
+  width: 50%;
+  height: 100%;
+  background-color: #E67E22;
+}
+
+.fifhtRectangle{
+  width: 50%;
+  height: 100%;
+  background-color: gray;
+}
+
+.secondSubDivision{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sixthRectangle{
+  width: 34%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.sevenRectangle{
+  width: 33%;
+  height: 100%;
+  background-color: greenyellow;
+}
+
+.eightRectangle{
+  width: 33%;
+  height: 100%;
+  background-color: tomato;
+}
+
+.nineRectangle{
+  width: 100%;
+  height: 100%;
+  background-color: navy;
+}
