@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+  display: flex;
+  height: 50px;
+}
+
+#blocvert{
+  width: 80%;
+  background-color: green;
+}
+
+#blocbleu{
+  width: 20%;
+  background-color: blue;
+}
+
+#contenu
+{
+  display: grid;
+  grid-template-areas: "blocrouge erligne"
+                        "blocrouge emeligne";
+  grid-template-rows: 80px 65px;
+  grid-template-columns: calc(100%/3) 1fr;
+}
+
+#blocrouge{
+  grid-area: blocrouge;
+  background-color: red;
+}
+
+#erligne
+{
+  display: flex;
+  grid-area: erligne;
+}
+
+#blocgris
+{
+  background-color: grey;
+  flex: 1;
+}
+
+#blocorange
+{
+  background-color: orange;
+  flex: 1;
+}
+#emeligne{
+  display: flex;
+  grid-area: emeligne;
+}
+
+#blocjaune{
+  background-color: yellow;
+  flex: 1;
+}
+
+#blocvert2{
+  background-color: yellowgreen;
+  flex: 1;
+}
+
+#blocorange2{
+  background-color: tomato;
+  flex: 1;
+}
+
+#footer{
+  background-color: navy;
+  width: 100vw;
+  height: 200px;
+}

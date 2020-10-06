@@ -9,18 +9,31 @@
 
         thead{
             font-weight: bold;
+            background-color: grey;
+        }
+        tfoot{
+            background-color: cyan;
+            color: black;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
         }
 
     </style>
 </head>
 <body>
-    <table border="1" cellspacing="0">
+    <table>
         <caption>Mon compte BNP</caption>
         <thead style="text-align:center">
-            <td>Date</td>
-            <td>Libellé</td>
-            <td>Crédit</td>
-            <td>Débit</td>
+            <tr>
+            <th>Date</th>
+            <th>Libellé</th>
+            <th>Crédit</th>
+            <th>Débit</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -55,8 +68,10 @@
             </tr>
         </tbody>
         <tfoot style="text-align:center">
+            <tr>
             <td colspan="2">Solde</td>
             <td colspan="2">575,40</td>
+            </tr>
         </tfoot>
     </table>
 
