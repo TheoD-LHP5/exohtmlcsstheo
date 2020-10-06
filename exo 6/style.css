@@ -1,76 +1,26 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
-#header{
+.main-container{
+  width: 100%;
+  height: 100vh;
   display: flex;
-  height: 50px;
+  flex-direction: column;
 }
 
-#blocvert{
+.firstDivision{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.firstRectangle{
   width: 80%;
-  background-color: green;
+  height: 100%;
+  background-color: #2ECC23;
 }
 
-#blocbleu{
+.secondRectangle{
   width: 20%;
-  background-color: blue;
+  height: 100%;
+  background-color: #298089;
 }
 
-#contenu
-{
-  display: grid;
-  grid-template-areas: "blocrouge erligne"
-                        "blocrouge emeligne";
-  grid-template-rows: 80px 65px;
-  grid-template-columns: calc(100%/3) 1fr;
-}
-
-#blocrouge{
-  grid-area: blocrouge;
-  background-color: red;
-}
-
-#erligne
-{
-  display: flex;
-  grid-area: erligne;
-}
-
-#blocgris
-{
-  background-color: grey;
-  flex: 1;
-}
-
-#blocorange
-{
-  background-color: orange;
-  flex: 1;
-}
-#emeligne{
-  display: flex;
-  grid-area: emeligne;
-}
-
-#blocjaune{
-  background-color: yellow;
-  flex: 1;
-}
-
-#blocvert2{
-  background-color: yellowgreen;
-  flex: 1;
-}
-
-#blocorange2{
-  background-color: tomato;
-  flex: 1;
-}
-
-#footer{
-  background-color: navy;
-  width: 100vw;
-  height: 200px;
-}
