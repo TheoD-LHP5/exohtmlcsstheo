@@ -9,3 +9,7 @@
 #paiement{
     background-color: rgb(182, 88, 65);
 }
+
+fieldset ol li ul li{
+    list-style: none;
+}
